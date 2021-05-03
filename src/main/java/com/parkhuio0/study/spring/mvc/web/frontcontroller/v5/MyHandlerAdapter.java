@@ -11,5 +11,5 @@ public interface MyHandlerAdapter {
 
     boolean supports(Object handler);
 
-    ModelView handle(HttpServletRequest request, HttpServletResponse responses, Object handle) throws ServletException, IOException;
+    ModelView handle(HttpServletRequest request, HttpServletResponse responses, Object handler) throws ServletException, IOException;
 }
